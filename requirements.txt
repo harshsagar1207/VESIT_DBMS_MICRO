@@ -1,0 +1,7 @@
+starlette>=0.37
+uvicorn>=0.30
+psycopg[binary]>=3.1
+cryptography>=44.0      # Argon2id
+PyJWT>=2.8
+requests>=2.31          # tests only
+pytest>=8.0             # optional; tests/run_tests.py works without it
